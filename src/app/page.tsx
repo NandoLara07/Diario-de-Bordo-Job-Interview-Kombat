@@ -8,7 +8,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="flex justify-center bg-gray-100 min-h-screen p-4 pt-5 pb-5">
+    <main className="flex justify-center bg-gray-100 min-h-screen md:p-4 md:py-5">
       <div className="bg-white w-full max-w-[794px] shadow-lg rounded-lg px-10 py-20">
         <h1 className="text-4xl mb-10 text-center font-oswald">
           Diário de bordo - Job Interview Kombat
