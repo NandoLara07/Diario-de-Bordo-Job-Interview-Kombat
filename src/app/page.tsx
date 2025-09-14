@@ -9,7 +9,7 @@ import {
 export default function Home() {
   return (
     <main className="flex justify-center bg-gray-100 min-h-screen md:p-4 md:py-5">
-      <div className="bg-white w-full max-w-[794px] shadow-lg rounded-lg px-10 py-20">
+      <div className="bg-white w-full max-w-[794px] shadow-lg rounded-xl px-10 py-20">
         <h1 className="text-4xl mb-10 text-center font-oswald">
           Diário de bordo - Job Interview Kombat
         </h1>
@@ -49,7 +49,7 @@ export default function Home() {
                   Com os botões já posicionados, decidimos fazer o fundo.
                   <Image
                     src="/image02.png"
-                    alt="Imagem do design inicial do projeto"
+                    alt="Design do fundo do projeto"
                     width={600}
                     height={600}
                     className="mx-auto my-4 rounded-sm"
@@ -60,7 +60,7 @@ export default function Home() {
                   Criamos o protótipo de como seria o layout da área de regras
                   <Image
                     src="/image03.png"
-                    alt="Imagem do design inicial do projeto"
+                    alt="Protótipo do layout da área de regras"
                     width={600}
                     height={600}
                     className="mx-auto my-4 rounded-sm"
@@ -78,6 +78,181 @@ export default function Home() {
                       allowFullScreen
                     ></iframe>
                   </div>
+                </li>
+
+                <li>
+                  Adicionamos animação para a tela de início
+                  <div className="w-full max-w-[600px] mx-auto aspect-video my-4">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/YMIT5H7AXTA?si=1h82ccV2ZP4yPCNh"
+                      title="YouTube video player"
+                      className="w-full h-full rounded-sm"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerPolicy="strict-origin-when-cross-origin"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                </li>
+
+                <li>
+                  Finalizamos o design do layout das regras, opções, créditos, e
+                  tela de carregamento
+                  <Image
+                    src="/image04.png"
+                    alt="Design das regras do projeto"
+                    width={600}
+                    height={600}
+                    className="mx-auto my-4 rounded-sm"
+                  />
+                  <Image
+                    src="/image05.png"
+                    alt="Design das opções do projeto"
+                    width={600}
+                    height={600}
+                    className="mx-auto my-4 rounded-sm"
+                  />
+                  <Image
+                    src="/image06.png"
+                    alt="Design dos créditos do projeto"
+                    width={600}
+                    height={600}
+                    className="mx-auto my-4 rounded-sm"
+                  />
+                  <Image
+                    src="/image07.png"
+                    alt="Design da tela de carregamento do projeto"
+                    width={600}
+                    height={600}
+                    className="mx-auto my-4 rounded-sm"
+                  />
+                </li>
+
+                <li>
+                  Fizemos o esqueleto funcional dos menus no site
+                  <div className="w-full max-w-[600px] mx-auto aspect-video my-4">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/FqkZ8RMfrTw?si=dzIOUDZGJUB0oPnS"
+                      title="YouTube video player"
+                      className="w-full h-full rounded-sm"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerPolicy="strict-origin-when-cross-origin"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                </li>
+
+                <li>
+                  Com o esqueleto já pronto, e os layouts já definidos,
+                  decidimos os implementar de fato ao site
+                  <Image
+                    src="/image08.png"
+                    alt="Implementação do layout das regras"
+                    width={600}
+                    height={600}
+                    className="mx-auto my-4 rounded-sm"
+                  />
+                  <Image
+                    src="/image09.png"
+                    alt="Implementação do layout das opções"
+                    width={600}
+                    height={600}
+                    className="mx-auto my-4 rounded-sm"
+                  />
+                  <Image
+                    src="/image10.png"
+                    alt="Implementação do layout dos créditos"
+                    width={600}
+                    height={600}
+                    className="mx-auto my-4 rounded-sm"
+                  />
+                  <Image
+                    src="/image11.png"
+                    alt="Implementação da tela de carregamento"
+                    width={600}
+                    height={600}
+                    className="mx-auto my-4 rounded-sm"
+                  />
+                </li>
+
+                <li>
+                  Após criarmos as telas iniciais, fizemos o design do layout da
+                  área de “Jogar”
+                  <Image
+                    src="/image12.png"
+                    alt="Design do layout da área de jogar"
+                    width={600}
+                    height={600}
+                    className="mx-auto my-4 rounded-sm"
+                  />
+                  <Image
+                    src="/image13.png"
+                    alt="Design do layout da área de jogar"
+                    width={600}
+                    height={600}
+                    className="mx-auto my-4 rounded-sm"
+                  />
+                </li>
+
+                <li>
+                  Para finalizar a primeira semana de desenvolvimento, fizemos o
+                  design da tela quando o jogo se inicia
+                  <div className="grid grid-cols-1 gap-x-4 gap-y-4 mt-4 sm:grid-cols-2">
+                    <Image
+                      src="/image14.png"
+                      alt="Design da tela de início do jogo"
+                      width={300}
+                      height={300}
+                      className="w-full h-auto rounded-sm"
+                    />
+                    <Image
+                      src="/image15.png"
+                      alt="Design da tela de início do jogo"
+                      width={300}
+                      height={300}
+                      className="w-full h-auto rounded-sm"
+                    />
+                    <Image
+                      src="/image16.png"
+                      alt="Design da tela de início do jogo"
+                      width={300}
+                      height={300}
+                      className="w-full h-auto rounded-sm"
+                    />
+                    <Image
+                      src="/image17.png"
+                      alt="Design da tela de início do jogo"
+                      width={300}
+                      height={300}
+                      className="w-full h-auto rounded-sm"
+                    />
+                    <Image
+                      src="/image18.png"
+                      alt="Design da tela de início do jogo"
+                      width={300}
+                      height={300}
+                      className="w-full h-auto rounded-sm"
+                    />
+                    <Image
+                      src="/image19.png"
+                      alt="Design da tela de início do jogo"
+                      width={300}
+                      height={300}
+                      className="w-full h-auto rounded-sm"
+                    />
+                  </div>
+                  <Image
+                    src="/image20.png"
+                    alt="Implementação da tela de carregamento"
+                    width={600}
+                    height={600}
+                    className="mx-auto my-4 rounded-sm"
+                  />
                 </li>
               </ul>
             </AccordionContent>
