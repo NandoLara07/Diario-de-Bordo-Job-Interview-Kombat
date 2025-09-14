@@ -1,4 +1,3 @@
-import Image from "next/image";
 import {
   Accordion,
   AccordionContent,
@@ -6,6 +5,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import WeekOne from "@/components/common/WeekOne";
+import WeekTwo from "@/components/common/WeekTwo";
 
 export default function Home() {
   return (
@@ -35,7 +35,7 @@ export default function Home() {
             </AccordionTrigger>
 
             <AccordionContent className="font-arial text-base text-black">
-              <p className="font-arial">Conteúdo da semana 2</p>
+              <WeekTwo />
             </AccordionContent>
           </AccordionItem>
 
