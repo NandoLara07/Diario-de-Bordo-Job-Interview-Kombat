@@ -55,6 +55,8 @@ const WeekTwo = () => {
           className="mx-auto my-4 rounded-sm"
         />
       </li>
+
+      <li>Implementamos no site a tela de “Play” de forma funcional</li>
     </ul>
   );
 };
