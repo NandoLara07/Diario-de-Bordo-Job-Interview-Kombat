@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const WeekOne = () => {
   return (
-    <ul className="list-disc list-inside ml-4">
+    <ul className="log-list">
       <li>
         Na primeira semana, após criarmos o repositório no Github do projeto,
         focamos em criar a identidade visual do site. Por ser um RPG que
@@ -15,8 +15,8 @@ const WeekOne = () => {
           src="/image01.png"
           alt="Imagem do design inicial do projeto"
           width={600}
-          height={600}
-          className="mx-auto rounded-sm"
+          height={285}
+          className="shot mx-auto"
         />
         <br />
       </li>
@@ -27,8 +27,8 @@ const WeekOne = () => {
           src="/image02.png"
           alt="Design do fundo do projeto"
           width={600}
-          height={600}
-          className="mx-auto my-4 rounded-sm"
+          height={285}
+          className="shot mx-auto my-5"
         />
       </li>
 
@@ -38,8 +38,8 @@ const WeekOne = () => {
           src="/image03.png"
           alt="Protótipo do layout da área de regras"
           width={600}
-          height={600}
-          className="mx-auto my-4 rounded-sm"
+          height={316}
+          className="shot mx-auto my-5"
         />
       </li>
 
@@ -49,7 +49,7 @@ const WeekOne = () => {
           <iframe
             src="https://www.youtube.com/embed/LSPjR5Lgi-8?si=rbHw-iLgVA70YCo6"
             title="YouTube video player"
-            className="w-full h-full rounded-sm shadow-lg"
+            className="shot w-full h-full"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           ></iframe>
@@ -64,7 +64,7 @@ const WeekOne = () => {
             height="315"
             src="https://www.youtube.com/embed/YMIT5H7AXTA?si=1h82ccV2ZP4yPCNh"
             title="YouTube video player"
-            className="w-full h-full rounded-sm"
+            className="shot w-full h-full"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -80,29 +80,29 @@ const WeekOne = () => {
           src="/image04.png"
           alt="Design das regras do projeto"
           width={600}
-          height={600}
-          className="mx-auto my-4 rounded-sm"
+          height={338}
+          className="shot mx-auto my-5"
         />
         <Image
           src="/image05.png"
           alt="Design das opções do projeto"
           width={600}
-          height={600}
-          className="mx-auto my-4 rounded-sm"
+          height={338}
+          className="shot mx-auto my-5"
         />
         <Image
           src="/image06.png"
           alt="Design dos créditos do projeto"
           width={600}
-          height={600}
-          className="mx-auto my-4 rounded-sm"
+          height={338}
+          className="shot mx-auto my-5"
         />
         <Image
           src="/image07.png"
           alt="Design da tela de carregamento do projeto"
           width={600}
-          height={600}
-          className="mx-auto my-4 rounded-sm"
+          height={338}
+          className="shot mx-auto my-5"
         />
       </li>
 
@@ -114,7 +114,7 @@ const WeekOne = () => {
             height="315"
             src="https://www.youtube.com/embed/FqkZ8RMfrTw?si=dzIOUDZGJUB0oPnS"
             title="YouTube video player"
-            className="w-full h-full rounded-sm"
+            className="shot w-full h-full"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
@@ -130,29 +130,29 @@ const WeekOne = () => {
           src="/image08.png"
           alt="Implementação do layout das regras"
           width={600}
-          height={600}
-          className="mx-auto my-4 rounded-sm"
+          height={278}
+          className="shot mx-auto my-5"
         />
         <Image
           src="/image09.png"
           alt="Implementação do layout das opções"
           width={600}
-          height={600}
-          className="mx-auto my-4 rounded-sm"
+          height={281}
+          className="shot mx-auto my-5"
         />
         <Image
           src="/image10.png"
           alt="Implementação do layout dos créditos"
           width={600}
-          height={600}
-          className="mx-auto my-4 rounded-sm"
+          height={380}
+          className="shot mx-auto my-5"
         />
         <Image
           src="/image11.png"
           alt="Implementação da tela de carregamento"
           width={600}
-          height={600}
-          className="mx-auto my-4 rounded-sm"
+          height={298}
+          className="shot mx-auto my-5"
         />
       </li>
 
@@ -163,15 +163,15 @@ const WeekOne = () => {
           src="/image12.png"
           alt="Design do layout da área de jogar"
           width={600}
-          height={600}
-          className="mx-auto my-4 rounded-sm"
+          height={338}
+          className="shot mx-auto my-5"
         />
         <Image
           src="/image13.png"
           alt="Design do layout da área de jogar"
           width={600}
-          height={600}
-          className="mx-auto my-4 rounded-sm"
+          height={338}
+          className="shot mx-auto my-5"
         />
       </li>
 
@@ -182,52 +182,52 @@ const WeekOne = () => {
           <Image
             src="/image14.png"
             alt="Design da tela de início do jogo"
-            width={300}
-            height={300}
-            className="w-full h-auto rounded-sm"
+            width={600}
+            height={338}
+            className="shot w-full h-auto"
           />
           <Image
             src="/image15.png"
             alt="Design da tela de início do jogo"
-            width={300}
-            height={300}
-            className="w-full h-auto rounded-sm"
+            width={600}
+            height={338}
+            className="shot w-full h-auto"
           />
           <Image
             src="/image16.png"
             alt="Design da tela de início do jogo"
-            width={300}
-            height={300}
-            className="w-full h-auto rounded-sm"
+            width={600}
+            height={338}
+            className="shot w-full h-auto"
           />
           <Image
             src="/image17.png"
             alt="Design da tela de início do jogo"
-            width={300}
-            height={300}
-            className="w-full h-auto rounded-sm"
+            width={600}
+            height={338}
+            className="shot w-full h-auto"
           />
           <Image
             src="/image18.png"
             alt="Design da tela de início do jogo"
-            width={300}
-            height={300}
-            className="w-full h-auto rounded-sm"
+            width={600}
+            height={338}
+            className="shot w-full h-auto"
           />
           <Image
             src="/image19.png"
             alt="Design da tela de início do jogo"
-            width={300}
-            height={300}
-            className="w-full h-auto rounded-sm"
+            width={600}
+            height={338}
+            className="shot w-full h-auto"
           />
         </div>
         <Image
           src="/image20.png"
           alt="Implementação da tela de carregamento"
           width={600}
-          height={600}
-          className="mx-auto my-4 rounded-sm"
+          height={338}
+          className="shot mx-auto my-5"
         />
       </li>
     </ul>

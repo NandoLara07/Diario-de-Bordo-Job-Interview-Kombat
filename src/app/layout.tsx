@@ -1,11 +1,29 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Oswald } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Oswald,
+  Press_Start_2P,
+  Silkscreen,
+} from "next/font/google";
 import "./globals.css";
 
 const oswald = Oswald({
   variable: "--font-oswald",
   subsets: ["latin"],
   weight: ["400", "500", "700"],
+});
+
+const pressStart = Press_Start_2P({
+  variable: "--font-press-start",
+  subsets: ["latin"],
+  weight: "400",
+});
+
+const silkscreen = Silkscreen({
+  variable: "--font-silkscreen",
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "700"],
 });
 
 const geistSans = Geist({
@@ -33,9 +51,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${oswald.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${oswald.variable} ${pressStart.variable} ${silkscreen.variable} antialiased`}
       >
         {children}
       </body>
