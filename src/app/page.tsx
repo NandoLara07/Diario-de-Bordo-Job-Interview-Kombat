@@ -94,6 +94,7 @@ const rounds = [
 
 const postGame = {
   label: "Depois da META",
+  period: "2026",
   stage: "NOVA MÚSICA E FEEDBACK",
   content: <PostGame />,
 };
@@ -139,7 +140,7 @@ export default function Home() {
 
           <p className="mx-auto mt-7 max-w-[56ch] text-sm text-arcade-dim sm:text-base">
             O registro semana a semana do desenvolvimento do nosso RPG de
-            entrevistas de emprego: dos primeiros rascunhos da identidade visual
+            entrevistas de emprego. Dos primeiros rascunhos da identidade visual
             até as apresentações em Brasília e na 34ª META.
           </p>
         </header>

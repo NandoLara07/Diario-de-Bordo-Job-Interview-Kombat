@@ -29,11 +29,13 @@ const Meta2025 = () => {
         <strong className="text-arcade-yellow">
           O Job Interview Kombat foi um dos projetos premiados na 34ª META!
         </strong>
-      </li>
-
-      <li>
-        Depois da mostra, começamos a escrever um artigo sobre o projeto,
-        dividido em introdução, desenvolvimento e conclusão
+        <Image
+          src="/image44.jpg"
+          alt="Equipe do Job Interview Kombat com as medalhas da premiação da 34ª META"
+          width={600}
+          height={338}
+          className="shot mx-auto my-5"
+        />
       </li>
     </ul>
   );

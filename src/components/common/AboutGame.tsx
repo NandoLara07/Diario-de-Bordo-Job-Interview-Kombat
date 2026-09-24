@@ -70,7 +70,7 @@ const AboutGame = () => {
 
       <p className="mt-6 text-sm leading-relaxed text-arcade-dim">
         O jogo aplica a metodologia ativa GV/GO: quem joga forma o Grupo de
-        Vivência, e os juízes e colegas que assistem formam o Grupo de
+        Verbalização, e os juízes e colegas que assistem formam o Grupo de
         Observação.
       </p>
 

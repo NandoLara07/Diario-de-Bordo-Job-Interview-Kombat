@@ -30,7 +30,7 @@ const PostGame = () => {
   return (
     <ul className="log-list">
       <li>
-        Lembra do PS do Round 5? Foi aqui que ele aconteceu: o jogo ganhou uma
+        Lembra do PS do Round 5? Foi aqui que ele aconteceu, o jogo ganhou uma
         música nova, feita especialmente para o fundo do jogo
       </li>
 
